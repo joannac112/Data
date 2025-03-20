@@ -8,6 +8,6 @@ public class Main{
         int[][] grid = {
             {10, 50, 40},
             {20, 40, 20}
-        }
+        };
     }
 }

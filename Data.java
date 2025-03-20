@@ -14,9 +14,9 @@ public class Data {
         for(int[] row : grid)
         {
             for (int col : row){
-                s += col + "";
+                s += col + " ";
             }
-            s += "/n";
+            s += "\n";
         }
         return s;
     }

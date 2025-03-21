@@ -44,8 +44,8 @@ public class Data {
         int count = 0;
         for (int col = 0; col < grid[0].length; col++){
             int increasing = 1;
-            for (int row = 0; row < grid.length; row++){
-                if (grid[row][col] >= grid[row-1][col]){
+            for (int row = 1; row < grid.length; row++){
+                if (grid[row][col] >= grid[row - 1][col]){
                     increasing++;
                 }
             }
